@@ -1,0 +1,7 @@
+while True:
+    try:
+        sayi = int(input("bir sayı giriniz: "))
+        print("girdiğiniz sayı:", sayi)
+        break  
+    except ValueError:
+        print("lütfen geçerli bir sayı giriniz")

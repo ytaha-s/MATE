@@ -1,0 +1,18 @@
+sayi=int(input("Bir sayı giriniz: "))
+
+for i in range(sayi,0,-1):
+    print(i)
+print("Ateşle!")
+
+
+n = int(input("Bir sayı giriniz: "))
+toplam=0
+for i in range(1,n + 1):
+    toplam += i
+print("Toplam:",toplam)
+
+input("\nÇarpım tablosunu görmek için enter tuşuna basın")
+for i in range(1, 10):
+    for j in range(1, 10):
+        print(f"{i}x{j}={i*j}", end="\t")
+    print()
